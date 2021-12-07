@@ -1,0 +1,65 @@
+\documentclass[twocolumn, a4paper]{jsarticle}
+%\documentclass[twocolumn,uplatex, report]{jsbook}
+\usepackage[top=20truemm,bottom=20truemm,left=20truemm,right=20truemm]{geometry}
+\usepackage[dvipdfmx]{graphicx}
+\usepackage{cite}
+
+\setlength{\columnsep}{5mm}
+
+\begin{document}
+\title{情報システム工学演習II 画像処理　レポートテンプレート}
+\author{08D12345　大倉 史生}
+\date{20xx年x月x日} 
+\twocolumn[
+\maketitle
+]
+
+これは、情報システム工学演習II 画像処理演習のレポートテンプレートである。
+\begin{itemize}
+\item 本レポートの作成には\LaTeX を使うことを強く推奨する。
+\item ページ数は1～2ページ程度を目安とする（が、それより長くても良い）。日本語か英語で記述すること。
+\item 実装したアプリの内容をうまくアピールするように、本レポートのタイトルを適切に変更すること。
+\item かきあげたレポートをコンパイルし、\{学籍番号\}.pdfのファイル名で提出すること。その際、この辺のインストラクション用の文章は削除すること。
+\end{itemize}
+本演習は、アプリの「独創性」および「完成度」、レポート記述の「充実度」で評価する。
+下記に章立ての一例を示すが、この内容・順番にこだわる必要はない。
+
+\section{背景}
+皆さんの生活にどのような問題があり、この演習で作ったシステム、ツール、アプリがどのように役に立つか説明すること。
+
+あなた自身、あるいは特定のターゲットとなるユーザにとっての実用性がきちんと説明されていれば十分である。
+一般的な観点では実用的でなくとも、あなた自身（あるいは特定のユーザ）が有用であると思い得ることがレポートの記述からわかれば、それで良い。
+例えば、「暇つぶし」や「なんとなく楽しい」などもすごく立派な用途である。これらがとなり得るシナリオをレポート中にしっかり記載すること。
+
+\section{実装したツール}
+本演習で実装したツールの概要を以下に示す。
+
+\subsection{外部仕様}
+ユーザはどのようにそのツールを使うのか記述する。どんな画像を用意して、何を起動する、どのボタンを押す、そうすると何が得られる、など。
+
+\subsection{内部仕様}
+そのツールは、どのような仕様で実装されたか説明する。処理のフローなどを示すのも有用。参考にした資料がある場合は引用すること（Cannyエッジ抽出器の例\cite{canny1986computational}）。
+
+\subsection{使用した関数やライブラリ・実行環境}
+デフォルト以外のライブラリを使った場合、また、特殊な環境で実行することを前提とする場合は記載すること。
+
+
+\section{実行例}
+実行例を記載すること。実際の入出力画像を貼り付けるのも有用であるが、どのような結果が得られるのかを文章でも説明することが重要。
+図\ref{fig:ou}に図の例を示す。
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=\linewidth]{ou.png}
+\caption{図の例}
+\label{fig:ou}
+\end{figure}
+
+\section{考察・感想}
+考察や感想
+
+% ref.bibに引用文献のbibファイルのサンプルがある
+\bibliographystyle{junsrt}
+\bibliography{ref}
+
+\end{document}
