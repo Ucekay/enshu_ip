@@ -1,0 +1,5 @@
+jupyter
+opencv-contrib-python
+matplotlib
+scipy
+Pillow
