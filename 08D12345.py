@@ -15,7 +15,7 @@ submission_name = '大倉史生'
 
 # 概要
 # 実装したアプリ・システム・ツールの概要・アピールポイント（簡潔に。詳細はレポートに記入すること）：
-submission_appeal = '...'
+submission_highlights = '...'
 # 
 # 実行に準備（インストールや実行環境）が必要な場合、内容をここに記入。pipで入るものなら、requirements.txtを同梱してくれると更にありがたい：
 submission_requirements = '...'
