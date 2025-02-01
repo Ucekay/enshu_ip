@@ -3,3 +3,6 @@
 *.dvi
 *.log
 *.synctex.gz
+.DS_Store
+/datasets
+.env
